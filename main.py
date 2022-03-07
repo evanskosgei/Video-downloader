@@ -49,7 +49,6 @@ class Function(Fr.Ui_MainWindow, QtWidgets.QMainWindow):
     def downloading(self):
         n = 100
         for i in range(n):
-            time.sleep(0.01)
             self.progressBar.setValue(i+1)            
 
 if __name__ == "__main__":
